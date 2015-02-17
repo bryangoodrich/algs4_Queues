@@ -11,6 +11,7 @@ output. There is no error checking if k > N, the size of the string input.
 
 The API is as follows
 
+```
 // A Deque: queue/stack like data structure with insert/extract from both ends
 public class Deque<Item> implements Iterable<Item> {
     public Deque()                          // construct an empty deque
@@ -40,6 +41,7 @@ public class RandomQueue<Item> implements Iterable<Item> {
 public class Subset {
     public static void main(String[] args)  // implement random queue
 }
+```
 
 See JavaDocs for more details.
 
